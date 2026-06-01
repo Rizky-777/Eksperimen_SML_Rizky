@@ -1,0 +1,29 @@
+name: Pelatihan Model Otomatis (CI)
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  train-model:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Mengambil kode dari repository
+      uses: actions/checkout@v3
+
+    - name: Menyiapkan Python 3.9
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.9"
+
+    - name: Menginstal Library yang Dibutuhkan
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas scikit-learn mlflow
+
+    - name: Menjalankan Script Pelatihan Model
+      run: |
+        python modelling.py
