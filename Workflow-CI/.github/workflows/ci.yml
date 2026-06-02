@@ -23,6 +23,6 @@ jobs:
           
       - name: Menjalankan Script Pelatihan Model
         run: |
-          cd Membangun_model
+          cd MLProject
           rm -rf mlruns
           python modelling.py
