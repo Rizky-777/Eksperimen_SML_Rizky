@@ -6,7 +6,7 @@ def run_preprocessing():
     print("⏳ Memulai otomatisasi Data Preprocessing...")
 
     # 1. Memuat Dataset Mentah
-    df = pd.read_csv('data.csv')
+    df = pd.read_csv('../data.csv')
 
     # 2. Memisahkan Fitur (X) dan Target (y)
     X = df.drop('Creditworthiness', axis=1)

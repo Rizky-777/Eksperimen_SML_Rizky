@@ -10,7 +10,7 @@ def train_and_track():
     print("⏳ Memuat data bersih untuk pelatihan...")
     
     # 1. Memuat data hasil preprocessing dari Kriteria 1
-    data_path = 'dataset_preprocessing/data_preprocessed.csv'
+    data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'dataset_preprocessing', 'data_preprocessed.csv')
     df = pd.read_csv(data_path)
     
     # 2. Memisahkan Fitur dan Target
