@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -19,7 +20,9 @@ def train_and_track():
     # 3. Membagi data (80% Train, 20% Test)
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
     
-    # 4. Mengatur nama eksperimen di MLflow
+    # 4. Mengatur lokasi tracking MLflow dan nama eksperimen
+    # (Ini adalah baris ajaib agar GitHub Actions tidak Error Permission Denied)
+    mlflow.set_tracking_uri("file://" + os.path.abspath("mlruns"))
     mlflow.set_experiment("Eksperimen_Credit_Scoring_Rizky")
     
     # 5. Memulai tracking MLflow
