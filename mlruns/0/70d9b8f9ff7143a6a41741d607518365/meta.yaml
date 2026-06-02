@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/rizky/Downloads/pijak%20dicoding/Dicoding/Eksperimen_%20Rizky%20Maulana%20Harahap_MSML/repo_rizky/mlruns/0/70d9b8f9ff7143a6a41741d607518365/artifacts
+end_time: 1780381717287
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 70d9b8f9ff7143a6a41741d607518365
+run_name: sedate-elk-787
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780381694638
+status: 3
+tags: []
+user_id: rizky
