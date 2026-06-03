@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/rizky/Downloads/pijak%20dicoding/Dicoding/Eksperimen_%20Rizky%20Maulana%20Harahap_MSML/repo_rizky/mlruns/0/models/m-32619d7cd93843bdbd2cdcbc06a6a2bf/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.1.4
+model_id: m-32619d7cd93843bdbd2cdcbc06a6a2bf
+model_size_bytes: 33075021
+model_uuid: m-32619d7cd93843bdbd2cdcbc06a6a2bf
+prompts: null
+run_id: 45aefebaa8f24e7ca811d98e8069e8b3
+utc_time_created: '2026-06-03 12:09:56.599985'

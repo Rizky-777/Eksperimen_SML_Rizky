@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/rizky/Downloads/pijak%20dicoding/Dicoding/Eksperimen_%20Rizky%20Maulana%20Harahap_MSML/repo_rizky/mlruns/0/models/m-32619d7cd93843bdbd2cdcbc06a6a2bf/artifacts
+creation_timestamp: 1780488596521
+experiment_id: '0'
+last_updated_timestamp: 1780488613101
+model_id: m-32619d7cd93843bdbd2cdcbc06a6a2bf
+model_type: null
+name: credit_scoring_model
+source_run_id: 45aefebaa8f24e7ca811d98e8069e8b3
+status: 2
+status_message: null
